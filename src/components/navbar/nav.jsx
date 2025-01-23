@@ -19,8 +19,8 @@ const Navbar = async() => {
         <li className="btn btn-outline">
           <Link href="/">Home</Link>
         </li>
-        <li>
-          <Link className="btn btn-outline" href="/profile">Profile</Link>
+        <li className="btn btn-outline">
+          <Link href="/profile">Profile</Link>
         </li>
         <li className="btn btn-outline">
             {
